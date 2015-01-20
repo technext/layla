@@ -8,15 +8,13 @@ TABLE OF CONTENTS
 
     01 - Video
     02 - Global
-    03 - Header
-    04 - Navigation
-    05- Preloader
-    06 - Header
-    07 - Main Content
-    08 - About
-    09 - Contact us
-    10 - Footer
-    11 - Responsive Fixes
+    03 - Navbar
+    04 - Main Content Section
+    05-  Preloader
+    06 - About
+    07 - Contact us Section
+    08 - Footer Section
+    09 - Responsive Fixes
 
 
 */
@@ -211,6 +209,7 @@ p {
     left: 50%;
     transform: translate(-50%,-50%);
     padding-top: 240px;
+    z-index: 99999;
 }
 .headline-wrap {
     padding-top: 15px;
@@ -372,7 +371,7 @@ p {
 }
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  12 - Contact us Section
+//  7 - Contact us Section
 /////////////////////////////////////////////////////////////////////*/
 #contact {
     padding: 80px 0px 80px;
@@ -485,7 +484,7 @@ p {
 
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  13 - Footer Section
+//  8 - Footer Section
 /////////////////////////////////////////////////////////////////////*/
 
 #footer {
@@ -502,7 +501,7 @@ p {
 
 
 /* ///////////////////////////////////////////////////////////////////// 
-//  13 - Responsive Fixes
+//  9 - Responsive Fixes
 /////////////////////////////////////////////////////////////////////*/
 
 /*1368px - */
