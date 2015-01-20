@@ -4,7 +4,7 @@ A Stylish Coming Soon Template for your upcoming business.
 
 #Features
 
-- Stylish Mordern Design
+- Stylish Modern Design
 - Full Screen Video Background
 - Responsive layout
 - Optimized Code & Content
