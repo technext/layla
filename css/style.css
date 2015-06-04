@@ -196,7 +196,7 @@ p {
 
 .logo {
     background: transparent;
-    position: absolute;
+    /*position: absolute;*/
     z-index: 899;
     width: 100%;
     top: 8%;
