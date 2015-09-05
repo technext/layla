@@ -61,14 +61,18 @@
 								</h1>
 								<form role="form" id="subscribe-form" class="row">
 									<div class="form-group col-xs-10">
-										<input type="email" class="form-control mc-email" id="subscribe-email" placeholder="Email">
+										<input type="email" name="email" class="form-control mc-email" id="subscriber-email" placeholder="Email" required>
 									</div>
 									<div class="form-group col-xs-2 push-btn-left">
-										<button type="submit" class="btn btn-default mc-btn">
+										<button id="subscribe-button" type="submit" class="btn btn-default mc-btn">
 											<i class="ion-paper-airplane"></i>
 										</button>
+										<!-- <input id="subscribe-button" type="submit" class="btn btn-default mc-btn">
+										<i class="ion-paper-airplane"></i> -->
 									</div>
 								</form>
+								<!-- SUCCESS OR ERROR MESSAGES -->
+                				<div id="subscription-response"></div>
 							</div>
 						</div>
 						<div class="col-md-5  wow fadeInRight">
