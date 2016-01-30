@@ -37,12 +37,13 @@ $("#nav-menu").stick_in_parent()
 
 new WOW().init();
 
-// Count Down Timer
 
+// Count Down Timer
+var countDownEndDate = '26 February 2016';  // specif
 $('.countdown').final_countdown({
-    start : 1360000000,
-    end   : 1390000000,
-    now   : 1385000000,
+    start : new Date().getTime() / 1000,
+    end   : new Date(countDownEndDate).getTime() / 1000,
+    now   : new Date().getTime() / 1000,
     seconds: {
     borderColor: '#5677fc',
     borderWidth: '3'
