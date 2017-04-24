@@ -201,6 +201,7 @@ p {
     width: 100%;
     top: 8%;
     left: 15px;
+    padding-top: 20px;
 }
 
 .center-container {
@@ -504,6 +505,12 @@ p {
 //  9 - Responsive Fixes
 /////////////////////////////////////////////////////////////////////*/
 
+@media (max-width: 768px) {
+    .headline {
+        font-size: 1em;
+    }
+}
+
 /*1368px - */
 
 @media (min-width: 1368px) {
@@ -521,7 +528,7 @@ p {
         font-size: 2em;
     }
     .text .type-time {
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
 }
 
@@ -542,14 +549,6 @@ p {
     #video-bg, #main-content {
         min-height: 792px;
     }
-    .logo {
-        background: transparent;
-        position: absolute;
-        z-index: 899;
-        width: 100%;
-        top: 2%;
-        left: 0px;
-    }
     .center-container {
         padding-top: 165px;
         transform: translate(-50%,-47%);
@@ -563,7 +562,7 @@ p {
         text-align: center;
     }
     .headline {
-        font-size: 1.2em;
+        font-size: 1.1em;
         padding-top: 0px;
     }
     .clock {
@@ -600,18 +599,13 @@ p {
         margin: 0px;
         padding-bottom: 20px;
     }
-    .logo {
-        max-width: 100%;
-        margin: 0;
-        top: 8%;
-    }
     #mobile-nav {
         margin-top: -72px;
         position: relative;
         z-index: 9999;
     }
     .headline {
-        font-size: 1.5em;
+        font-size: 1em;
         margin-bottom: 20px;
     }
     .text .val {
@@ -619,7 +613,7 @@ p {
     }
     #subscribe-form {
         margin: 0 auto;
-        margin-bottom: 30px !important;
+        margin-bottom: 10px !important;
         padding-left: 4px;
         padding-right: 4px;
     }
@@ -629,7 +623,7 @@ p {
         padding-left: 0px;
     }
     .clock {
-        margin: 50px auto 0;
+        margin: 10px auto 0;
     }
     .clock-item .text {
         margin-top: -40px;

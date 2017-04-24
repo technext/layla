@@ -14,7 +14,7 @@ var $ = jQuery;
 var vidWidth = $(window).width(), vidHeight = $(window).height();
 
 $("#video-wrap").css({
-    'width': vidWidth,
+    
     'height': vidHeight
 });
 
@@ -37,15 +37,16 @@ $("#nav-menu").stick_in_parent()
 
 new WOW().init();
 
+
 // Count Down Timer
 
 $('.countdown').final_countdown({
-    start : 1360000000,
+    start : 1360000000, //Here use Milisecond. To convert your time you can go to this(https://currentmillis.com/) website. 
     end   : 1390000000,
-    now   : 1385000000,
-    seconds: {
-    borderColor: '#5677fc',
-    borderWidth: '3'
+    now : 1385000000,
+seconds: {
+borderColor: '#5677fc',
+borderWidth: '3'
 },
 minutes: {
     borderColor: '#7e57c2',
